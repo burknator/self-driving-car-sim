@@ -32,9 +32,9 @@ public class MenuOptions : MonoBehaviour
     public void StartDrivingMode()
     {
         if (track == 0) {
-            SceneManager.LoadScene("LakeTrackTraining");
+            SceneManager.LoadScene("LakeTrackTrainingNight");
         } else {
-            SceneManager.LoadScene("JungleTrackTraining");
+            SceneManager.LoadScene("JungleTrackTrainingNight");
         }
 
     }
@@ -42,9 +42,9 @@ public class MenuOptions : MonoBehaviour
     public void StartAutonomousMode()
     {
         if (track == 0) {
-            SceneManager.LoadScene("LakeTrackAutonomous");
+            SceneManager.LoadScene("LakeTrackAutonomousNight");
         } else {
-            SceneManager.LoadScene("JungleTrackAutonomous");
+            SceneManager.LoadScene("JungleTrackAutonomousNight");
         }
     }
 
